@@ -1,38 +1,50 @@
 <!DOCTYPE HTML>
-<link rel = "stylesheet" type = "text/css" href = "css/bootstrap.min.css">
+<head>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<head><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href= "main.css" >
+</head>
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
 <html>
 <body style = "background-color: black; color: white">
 <style>
 .Title
 {
-padding: 25px;
-text-align: center;
+padding: 15px;
 background-color: white;
-font-family: tahoma;
+text-align:center;
 color: black;
+padding-bottom: 60px;
 }
 </style>
 <div class="Title">
-<h1> Who am I? </h1>
+<h1> <img src = "logo black v2.png" height = "300" width = "300"></h1>
 </div>
-<p style = "font-family: tahoma; font-size: 24px"> Hello to anyone who sees this page! My name is <span style = "color:#00FFFF"> Sebastian Chalarca </span>and this is my first html assignment for this course! This page was designed so that those who see this can get to know me a little better!</p>
-<p style = "font-family: tahoma; text-align:center; font-size: 24px"> Click on one of these categories to begin! </p>
+<p style = " font-size: 24px; margin-top: 20px; margin-left: 15px"> Hello to anyone who sees this page! My name is <span style = "color:#00FFFF"> Sebastian Chalarca </span>and this is my first html assignment for this course! This page was designed so that those who see this can get to know me a little better!</p>
+<p style = " text-align:center; font-size: 24px"> Click on one of these categories to begin! </p>
 <style>
 	.basic_info_link
 	{
 		text-decoration: none;
 		margin: 10px;
-		padding: 110px;
+		padding: 80px;
 		display: inline-block;
 		background-color: red;
 		text-align: center;
 		color: white;
 		font-size: 24px;
-		font-family: tahoma;
+		
 	}
 	.basic_info_link:hover
 	{
         color: chartreuse;
+        text-decoration: none;
 	}
 </style>
 <style>
@@ -40,7 +52,8 @@ color: black;
 {
 	    text-decoration: none;
 		margin: 10px;
-		padding: 110px;
+		padding-bottom:80px;
+		padding: 79px;
 		text-align: center;
 		display: inline-block;
 		background-color: orange;
@@ -51,6 +64,7 @@ color: black;
     .Education_link:hover
 	{
         color: blue;
+        text-decoration: none;
 	}
 </style>
 <style>
@@ -58,17 +72,18 @@ color: black;
 	{
         text-decoration: none;
 		margin: 10px;
-		padding: 110px;
+		padding: 80px;
 		display: inline-block;
 		background-color: yellow;
 		text-align: center;
 		color: black;
 		font-size: 24px;
-		font-family: tahoma;
+		
 	}
 	.Work_link:hover
 	{
-        color: orchid;
+        color: purple;
+        text-decoration: none;
 	}
 </style>
 <style>
@@ -76,16 +91,19 @@ color: black;
 	{
         text-decoration: none;
 		margin: 10px;
-		padding: 110px;
+		padding: 55px;
+		padding-top: 80px;
+		padding-bottom: 80px;
 		display: inline-block;
 		background-color: green;
 		color: white;
 		font-size: 24px;
-		font-family: tahoma;
+		
 	}
 	.Program_link:hover
 	{
-		color: #B22222;
+		color: cyan;
+		text-decoration: none;
 	}
 </style>
 <style>
@@ -93,17 +111,18 @@ color: black;
 	{
         text-decoration: none;
 		margin: 10px;
-		padding: 110px;
+		padding: 80px;
 		display: inline-block;
 		background-color: blue;
 		text-align: center;
 		color: white;
 		font-size: 24px;
-		font-family: tahoma;
+		
 	}
 	.Favorite_media_link:hover
 	{
 		color: orange;
+		text-decoration: none;
 	}
 </style>
 <style>
@@ -111,16 +130,18 @@ color: black;
     {
         text-decoration: none;
 		margin: 10px;
-		padding: 110px;
+		padding: 80px;
 		display: inline-block;
 		background-color: purple;
 		color: white;
 		font-size: 24px;
-		font-family: tahoma;
+		text-align: center;
+		
     }
     .Website_link:hover
     {
     	color: yellow;
+    	text-decoration: none;
     }
 </style>
 <style>
@@ -128,18 +149,19 @@ color: black;
 	{
      text-decoration: none;
 		margin: 10px;
-		padding: 110px;
+		padding: 80px;
 		display: inline-block;
 		background-color: crimson;
 		text-align: center;
 		color: white;
 		font-size: 24px;
-		font-family: tahoma;
+		
 
 	}
 	.Hobbies_link:hover
 	{
 	     color: #1034A6;
+	     text-decoration: none;
 	}
 </style>
 <style>
@@ -147,51 +169,501 @@ color: black;
 	{
 		text-decoration: none;
 		margin: 10px;
-		padding: 110px;
+		padding: 80px;
 		display: inline-block;
 		background-color: turquoise;
 		text-align: center;
 		color: white;
 		font-size: 24px;
-		font-family: tahoma;
+		
 	}
 	.Projects_link:hover
 	{
 		color: indigo;
+		text-decoration: none;
 	}
 </style>
 <style>
-	.First_row_categories
+	.categories
 	{
-		margin-left: 120px;
+		margin-left: 80px;
 	}
-</style>
-<style>
-	.Second_row_categories
-	{
-		margin-left: 120px;
-	}
-</style>
-<style>
-    .Third_row_categories
-    {
-    	margin-left: 220px;
-    }
 </style>
 
-<div class = "First_row_categories">
-<a href = "Basic_info.html" class = "basic_info_link"> Basic info </a>
-<a href = "Education.html" class = "Education_link"> Education </a>
-<a href = "Work_Experience.html" class = "Work_link"> Work Experience </a>
+<div class = "categories">
+<a href = "#Basic_info" class = "basic_info_link"> <img src = "Basic_info_logo.png" height = "400" width = "400"> <p style = "font-size: 50px"> Basic info </p></a>
+<a href = "#Education" class = "Education_link"> <img src = "Education_logo.png" height = "400" width = "400"> <p style = "font-size: 50px">Education</p> </a>
+<a href = "#Work" class = "Work_link"> 
+	<img src = "Work_logo_black.png" height = "400" width = "400" style = "margin-bottom: 50px"> 
+	<p style = "font-size: 50px"> Work Experience </p></a>
+<a href = "#program" class = "Program_link"> <img src = "Programming_logo.png" height = "450" width = "450"> <p style = "font-size: 50px;margin-left: 15px"> Programming Skills </p></a>
+<a href = "#media" class = "Favorite_media_link"> <img src = "Media_logo.png" height = "400" width = "400"> <p style = "font-size: 50px">  Favorite Media </p></a>
+<a href = "#Website" class = "Website_link"> <img src = "Website_logo.png" height = "400" width = "400"> <p style = "font-size: 50px"> Websites </p></a>
+<a href = "#MyHobbies" class = "Hobbies_link"> <img src = "Hobbies_logo.png" height = "400" width = "400"> <p style = "font-size: 50px"> My hobbies </p></a>
+<a href = "#Projects" target = "_blank" class = "Projects_link"> <img src = "Project_logo.png" height = "400" width = "400"> <p style = "font-size: 50px">Projects </p></a>
 </div>
-<div class = "Second_row_categories">
-<a href = "Programming_Skills.html" class = "Program_link"> Programming Skills </a>
-<a href = "Favorite_media.html" class = "Favorite_media_link"> Favorite Media </a>
-<a href = "Websites.html" class = "Website_link"> Websites </a>
+
+<!-- The Basic info section> </!-->
+<a id = "Basic_info"> </a>
+<style>
+.Basic_info 
+{ 
+padding: 25px; background-color: red; color: white; text-align: center;
+}
+</style>
+
+<div class = "Basic_info">
+<h2> Basic Information </h2>
 </div>
-<div class = "Third_row_categories">
-<a href = "My_Hobbies.html" class = "Hobbies_link"> My hobbies </a>
-<a href = "Projects.html" target = "_blank" class = "Projects_link"> Projects </a>
+ <ul style = "font-size: 18px; margin-top:25px">
+   <li> Full name: Sebastian Chalarca </li>
+   <li> Major: Computer Science </li>
+   <li> Home state: NY </li>
+   <p style = "font-size: 18px"> NY is my state and NYC is my city! Since day 1, I have always called NYC home. There is so much to do and so many places to visit that are all packed within five bouroughs! Even outside of that, there is the cold and breezing rural landscapes of upstate New York too! If you don't live around the upstate area, thats okay! Manhattan is the best of the both worlds from the luminous, bustling streets overshadowed by the cloud-cutting skyscrapers, to the beautiful, gigantic scenery of Grand Central Park! </p>
+
+ </ul> 
+<style>
+	.Manhattan
+	{
+     border: 5px solid blue;
+	}
+</style>
+<style>
+	.Manhattan_Night
+	{
+      border: 5px solid blue;
+	}
+</style>
+<img src = "Manhattan.jpg" class = "Manhattan">
+<p> Source: Free Photos. “A Picture of Manhattan during a Sunrise.” Pixabay.com, 1 Aug. 2014, pixabay.com/photos/manhattan-new-york-city-407703/. </p>
+<img src = "Manhattan_Night.jpg" class = "Manhattan_Night">
+<p> Source: igormattio. “A Bird's Eye View of Manhattan during the Nighttime. Created by User ‘igormattio’ on Pixabay.com.” Pixabay.com, 31 Aug. 2017, pixabay.com/photos/new-york-cityscape-night-city-2699520/. </p>
+<style>
+     .Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 font-family: tahoma;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+     .Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+</style>
+<p style = " font-size: 28px; text-align:center"> Here is my avatar profile! </p>
+<img src = "Avatar.jpg.jpg" style = "display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 5px solid blue;">
+<div>
+	<a href = "index.html" class = "Back_to_mainpage"> Go back to the main page </a>
+</div>
+<!-- The Education section </!-->
+<a id = "Education"> </a>
+
+<style>
+.Education	
+{
+ background-color: orange;	
+ color: white;	
+ padding: 25px;		
+ text-align: center;	
+}
+</style>
+<div class = "Education">
+<h2> Education </h2>
+</div>
+<h2 style = "font-size: 28px;text-align: center; margin-top: 25px; margin-bottom: 25px"> Enrolled at: St. John's University (Queens Campus) 
+</h2>
+<img src = "SJU.jpg" style = "border: 5px solid blue" height = "700" width = "1325">
+<p> Source: “A Picture of the DaSilva Memorial Field at St. John's University Queens Campus.” Www.stjohns.edu, www.stjohns.edu/sites/default/files/styles/unmodified/public/2020-04/SJU_Spring2018-284_1600x900.jpg?itok=vOkbnJ87.</p>
+<p> Since the fall of 2019, I have been enrolled at St John's University at the Queens campus. I am currently majoring in Computer Science but I am also considering taking a minor in graphic design! I am also thinking about going for a masters degree in Computer Science! </p>
+<style>
+     .Back_to_mainpage
+     {
+      background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+     .Back_to_mainpage:hover
+     {
+     	color: blue;
+          text-decoration: none;
+     }
+</style>
+<div>
+	<a href = "index.html" class = "Back_to_mainpage"> Go back to the main page </a>
+</div>
+<!-- The Work experience section </!-->
+<a id = "Work"> </a>
+<style>
+.Work_Experience
+{
+	background-color: yellow;
+	color: black;
+	padding: 25px;
+	
+	text-align: center;
+}
+</style>
+<style>
+.Work_list
+{
+	margin-top: 25px;
+}
+</style>
+<div class = "Work_Experience">
+<h2> Work Experience </h2>
+</div>
+<div class = "Work_list">
+ <ol>
+   <li> Busser: Worked in my family's establishment cleaning floors, tables, taking out the trash and vaccuming the floors before the end of the day. I work all weekdays. </li>
+   <li> School Healthcare database: I worked with a partner to create a mysql database that would hold information about all the students from all schools and their health exams, which included nurse visits, hearing and eye exams, and sickle cell testing. The project was done over the course of the sophomore fall semester. </li>    
+ </ol>
+</div>
+<style>
+     .Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 font-family: tahoma;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+     .Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+</style>
+<div>
+	<a href = "index.html" class = "Back_to_mainpage"> Go back to the main page </a>
+</div>
+
+<!-- The Programming section </!-->
+<a id = "program"> </a>
+<style>
+.Programming_Skills
+{
+	background-color: green;
+	color: white;
+	padding: 25px;
+	font-family: tahoma;
+	text-align: center;
+}
+</style>
+<div class = "Programming_Skills">
+<h2> Programming Skills </h2>
+</div>
+<style>
+	.table
+	{
+     font-family: tahoma;
+     position: relative;
+     color: white;
+	}
+</style>
+ <table class = "table">
+ 	<tr>
+ 		<th>  Software </th>
+ 		<th> Type of software </th>
+ 		<th> Skill level </th>
+ 		<th> Description </th>
+ </tr>
+    <tr>
+
+   <td> Java </td>
+   <td> Object-Oriented language </td>
+   <td> low  </td> 
+   <td> Since freshman year of college, I have been learning basics for java coding, such as UML, wrapper classes, edge detection etc. In the spring semester of my freshman year, i moved on towards working on handling data from files and reorganizing them, calculating the min/max/average/highest/lowest values for stock data extracted from a .csv file, using hierarchy to determine how a wage or a salary should be calculated for an employee and creating a probability dice program. </td>
+   </tr>
+   <tr>
+   <td> MySQL </td> 
+   <td> Database Management System </td>
+   <td> low </td> 
+   <td> In the fall semester of sophomore year, I spent a semester working with MySQl to develop databases. Throughout the entire semester, I worked with my partner to develop a School Health Database which was a database designed to hold information about students and the information filled out in their health exam sheets. Information for documents such as the School Tally Sheet and the Immunization records for students are derived from information filled out in the Health Exam form. </td>
+   </tr>
+   <tr>
+   <td> Ruby on Rails </td> 
+   <td> Framework </td>
+   <td> low </td> 
+   <td> Recently, I have started learning Ruby on Rails to begin understanding how the front-end works before going furthermore into the back-end side of computer programming. I'm still learning how to work with css in order to create appealing graphic designs for websites by creating test projects where I explore the inner workings of the framework. </td>
+   </tr>
+</table>
+ </ul>
+ <style>
+     .Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 font-family: tahoma;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+     .Back_to_mainpage:hover
+     {
+     	color: blue;
+     }
+</style>
+<div>
+	<a href = "index.html" class = "Back_to_mainpage"> Go back to the main page </a>
+</div>
+
+<!-- The favorite media section </!-->
+<a id = "media"> </a>
+<style>
+.favorite_media
+{
+	background-color: blue;
+	color: white;
+	padding: 25px;
+	
+	text-align: center;
+}
+</style>
+<div class = "favorite_media">
+<h2> Favorite Song, Movie and TV Show! </h2>
+</div>
+
+<p style = "font-size: 18px; text-align: center; margin-top: 25px"> Favorite Song: The B-52s - Rock Lobster </p>
+<video height = "500" width = "1000" controls style = "margin-left: 150px"> 
+	<source src = "https://youtu.be/vz65vonktMA">
+		Your browser does not support this video format.
+</video>
+<p style = "font-size: 18px;text-align: center;"> Favorite Tv Show: Stranger Things </p>
+
+<video height = "500" width = "1000" controls style = "margin-left: 150px"> 
+	<source src = "https://youtu.be/-6OFqkemd4c">
+		Your browser does not support this video format.
+</video>
+<p style = "font-size: 18px; ;text-align: center;"> Favorite Movie: The Terminator </p>
+<video height = "500" width = "1000" controls style = "margin-left: 150px"> 
+	<source src = "https://youtu.be/67JrUmbydrk">
+		Your browser does not support this video format.
+</video>
+
+
+<p style = "font-size: 18px; text-align: center;"> If you want, you can post your own favorite pieces of media here! </p>
+<style>
+  .Input
+  {
+  	margin-left:50px;
+  }
+</style>
+<div class = "Input">
+<form action = "https://sebc750.github.io/ProfilePageHTML/Inputs.html" method = "post">
+	
+		<label for = "name" style = "font-size: 18px;"> Name: </label> <br>
+		<input type = "text" placeholder = "enter your name" name = "name"> <br>
+		<label for = "song" style = "font-size: 18px; "> Favorite song: </label> <br>
+		<input type = "text" placeholder = "enter your favorite song" name = "song"> <br>
+		<label for = "movie" style = "font-size: 18px; "> Favorite movie: </label> <br>
+		<input type = "text" placeholder = "enter your favorite movie" name = "movie"> <br>
+		<label for = "TV_show" style = "font-size: 18px; "> Favorite tv show: </label> <br>
+		<input type = "text" placeholder = "enter your favorite TV show" name = "TV_show"> <br>
+
+		<p><input type="submit" value="Submit"></p>
+    
+
+</form>
+</div>
+<style>
+     .Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+     .Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+</style>
+<div>
+	<a href = "index.html" class = "Back_to_mainpage"> Go back to the main page </a>
+</div>
+
+<!-- The Website section </!-->
+<a id = "Website"> </a>
+<style>
+.Websites
+{
+	background-color: purple;
+	color: white;
+	padding: 25px;
+	text-align: center;
+}
+</style>
+<div class = "Websites">
+<h2> Websites </h2>
+</div>
+<style>
+.Website_list
+{
+  font-size: 28px;
+  margin-top: 25px;
+}
+</style>
+<style>
+.discogs:hover
+{
+  color: yellow;
+}
+.w3schools:hover
+{
+color: yellow;
+}
+.youtube:hover
+{
+color: yellow;
+}
+.spotify:hover
+{
+  color: yellow;
+}
+</style>
+<div class = "Website_list">
+   <ul>
+   	  <a href = "https://www.discogs.com/" class = "discogs"> https://www.discogs.com/ </a>
+      <li> Discogs.com is a website that I like to browse a lot to look up more information about my favorite bands and their discographies. Many times, whenever I find a new band that I enjoy, I like to go there to see what other music they have so I can expand my music playlists! </li>
+      <a href = "https://www.w3schools.com/" class = "w3schools"> https://www.w3schools.com/ </a>
+      <li> w3schools.com is the go to website for me to look for syntax for whenever I am coding. I like to come here when I forget how to execute a specific line of code properly or if I want to try to implement some new features onto my program using methods and code that I don't know of yet. </li>
+      <a href = "https://www.youtube.com/" class = "youtube"> https://www.youtube.com/ </a>
+      <li> youtube.com is where I like to go to watch anything, from entertaining to educational. Almost every day, i am on youtube for whatever reason (I can't remember the last reason I watched a series I liked on a tv screen!). </li>
+      <a href = "https://www.spotify.com/us/" class = "spotify"> https://www.spotify.com/us/ </a>
+      <li> spotify.com is the main platform that I use for playing my favorite music. Whenever I feel that the assignment is easy enough or when I'm doing some coding, I like to sit back and shuffle play my playlists. It feels so empty doing anything without music playing through in the background.</li>
+
+   </ul>
+  </div>
+<style>
+     .Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+     .Back_to_mainpage:hover
+     {
+     	color: blue;
+      text-decoration: none;
+     }
+</style>
+<div>
+	<a href = "index.html" class = "Back_to_mainpage"> Go back to the main page </a>
+</div>
+
+
+<!-- The Hobbies section </!-->
+<a id = "MyHobbies"> </a>
+<style>
+.My_Hobbies
+{
+	background-color: crimson;
+	color: white;
+	padding: 25px;
+	text-align: center;
+}
+</style>
+<div class = "My_Hobbies">
+<h2> My Hobbies! </h2>
+</div>
+ <p = style = "font-size: 18px;"> One of the things I love to do most is to draw! Everyday and every chance I get, I will drawing anything, even if its a simple doodle. Drawing has been a major pastime for me since middle school and it has consumed most of my free time since then. I enjoy drawing a lot because i enjoy hobbies where I can create things so it serves as an outlet for me to express my creativity and ideas to draw into existence. Aside from that, I also find it therapeutic because drawing is a very passive pasttime, so it tends to relax me, especially during a calm night within the comfort of my own house. I have a predilection for drawing cartoons and I look forward to implementing my own art skills into Computer Science! </p>
+
+ <p = style = "font-size: 18px; font-family:tahoma;text-align: center;"> Here is a few artpieces from my art gallery!
+ </p>
+ <img src = "sketch-1561758450559.jpg" height = "400" width = "300" style = "border: 5px solid blue">
+ <img src = "sketch-1595538867709.jpg" height = "400" width = "400" style = "border: 5px solid blue">
+ <img src = "froppy.jpg" height = "400" width = "400" style = "border: 5px solid blue">
+ <img src = "sketch-1607916742892.jpg" height = "400" width = "850" style = "border: 5px solid blue;">
+ <p = style = "font-size: 18px; font-family:tahoma;text-align: center;"> Another thing that I have recently started to get into is learning how to play the electric guitar! I've never been talented at playing music, but I still have a lot of fun learning how to play my favorite songs! </p>
+<img src = "guitar.jpg" height = "400" width = "700" style = "margin-left: 350px; border: 5px solid blue">
+<p style = "margin-left: 130px"> Source: PIRO4D. “A 3D Model of a Guitar Created by User ‘PIRO4D’ on Pixabay.com.” Pixabay.com, 9 Nov. 2017, pixabay.com/photos/manhattan-new-york-city-407703/. </p>
+<style>
+     .Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 font-family: tahoma;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+     .Back_to_mainpage:hover
+     {
+     	color: blue;
+     }
+</style>
+<div>
+	<a href = "index.html" class = "Back_to_mainpage"> Go back to the main page </a>
+</div>
+
+<!-- The Projects section </!-->
+<a id = "Projects"> </a>
+<style>
+	.Projects
+	{
+     
+     background-color: turquoise;
+	 color: white;
+	 padding: 25px;
+	 text-align: center;
+	}
+</style>
+<div class = "Projects">
+<h2> My Projects </h2>
+</div>
+<table>
+	<tr>
+		<th> Assignment name </th>
+		<th> Date Completed </th>
+		<th> Description </th>
+	<tr>
+	<tr>
+		<td> Profile Page </td>
+		<td> 02/04/2021 </td>
+		<td> For this assignment, I was instructed to create a website that included a general overview of who I was, which was split into different categories. Each category of information about me can be accessed in the menu that is in the main page of the website. Details about who I am include my education, work experience, hobbies, programming skills, websites that I visit and favorite pieces of media.
+		</td>
+	</tr>
+</table>
+<style>
+     .Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+     .Back_to_mainpage:hover
+     {
+     	color: blue;
+     }
+</style>
+<div>
+	<a href = "index.html" class = "Back_to_mainpage"> Go back to the main page </a>
 </div>
 </body>
 </html>
