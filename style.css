@@ -1,0 +1,352 @@
+.basic_info_link
+{
+     text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: red;
+		text-align: center;
+		color: white;
+		font-size: 24px;
+		
+	}
+.basic_info_link:hover
+{
+        color: chartreuse;
+        text-decoration: none;
+}
+.Education_link
+{
+	    text-decoration: none;
+		margin: 10px;
+		padding-bottom:80px;
+		padding: 79px;
+		text-align: center;
+		display: inline-block;
+		background-color: orange;
+		color: white;
+		font-size: 24px;
+}
+    .Education_link:hover
+	{
+        color: blue;
+        text-decoration: none;
+	}
+	.Work_link
+	{
+        text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: yellow;
+		text-align: center;
+		color: black;
+		font-size: 24px;
+		
+	}
+.Work_link:hover
+	{
+        color: purple;
+        text-decoration: none;
+	}
+	.Program_link
+	{
+        text-decoration: none;
+		margin: 10px;
+		padding: 55px;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		display: inline-block;
+		background-color: green;
+		color: white;
+		font-size: 24px;
+		
+	}
+	.Program_link:hover
+	{
+		color: cyan;
+		text-decoration: none;
+	}
+	.Favorite_media_link
+	{
+        text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: blue;
+		text-align: center;
+		color: white;
+		font-size: 24px;
+		
+	}
+	.Favorite_media_link:hover
+	{
+		color: orange;
+		text-decoration: none;
+	}
+	 .Website_link
+    {
+        text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: purple;
+		color: white;
+		font-size: 24px;
+		text-align: center;
+		
+    }
+    .Website_link:hover
+    {
+    	color: yellow;
+    	text-decoration: none;
+    }
+    .Hobbies_link
+	{
+     text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: crimson;
+		text-align: center;
+		color: white;
+		font-size: 24px;
+		
+
+	}
+	.Hobbies_link:hover
+	{
+	     color: #1034A6;
+	     text-decoration: none;
+	}
+	.Projects_link
+	{
+		text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: turquoise;
+		text-align: center;
+		color: white;
+		font-size: 24px;
+		
+	}
+	.Projects_link:hover
+	{
+		color: indigo;
+		text-decoration: none;
+	}
+	#categories
+	{
+		margin-left: 80px;
+	}
+.Basic_info 
+{ 
+padding: 25px; background-color: red; color: white; text-align: center;
+}
+.Manhattan
+	{
+     border: 5px solid blue;
+	}
+.Manhattan_Night
+	{
+      border: 5px solid blue;
+	}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+.Education	
+{
+ background-color: orange;	
+ color: white;	
+ padding: 25px;		
+ text-align: center;	
+}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+.Work_Experience
+{
+	background-color: yellow;
+	color: black;
+	padding: 25px;
+	
+	text-align: center;
+}
+.Work_list
+{
+	margin-top: 25px;
+}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+.Programming_Skills
+{
+	background-color: green;
+	color: white;
+	padding: 25px;
+	text-align: center;
+}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+.favorite_media
+{
+	background-color: blue;
+	color: white;
+	padding: 25px;
+	
+	text-align: center;
+}
+ .Input
+  {
+  	margin-left:50px;
+  }
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+.Websites
+{
+	background-color: purple;
+	color: white;
+	padding: 25px;
+	text-align: center;
+}
+.Website_list
+{
+  font-size: 28px;
+  margin-top: 25px;
+}
+.discogs:hover
+{
+  color: yellow;
+}
+.w3schools:hover
+{
+color: yellow;
+}
+.youtube:hover
+{
+color: yellow;
+}
+.spotify:hover
+{
+  color: yellow;
+}
+
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+.My_Hobbies
+{
+	background-color: crimson;
+	color: white;
+	padding: 25px;
+	text-align: center;
+}
+.gallery
+ 	{
+ 		margin-left: 50px;
+ 	}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+.Projects
+	{
+     
+     background-color: turquoise;
+	 color: white;
+	 padding: 25px;
+	 text-align: center;
+	}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
