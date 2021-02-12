@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 1440px) {	.basic_info_link
+@media screen and (max-width: 900px) {	.basic_info_link
 {
      text-decoration: none;
 		margin: 10px;
@@ -16,7 +16,7 @@
         color: chartreuse;
         text-decoration: none;
 }
-@media screen and (max-width: 1440px) {.Education_link
+@media screen and (max-width: 900px) {.Education_link
 {
 	    text-decoration: none;
 		margin: 10px;
@@ -33,7 +33,7 @@
         color: blue;
         text-decoration: none;
 	}
-@media screen and (max-width: 1440px) {	.Work_link
+@media screen and (max-width: 900px) {	.Work_link
 	{
         text-decoration: none;
 		margin: 10px;
@@ -50,7 +50,7 @@
         color: purple;
         text-decoration: none;
 	}
-@media screen and (max-width: 1440px) {	.Program_link
+@media screen and (max-width: 900px) {	.Program_link
 	{
         text-decoration: none;
 		margin: 10px;
@@ -68,7 +68,7 @@
 		color: cyan;
 		text-decoration: none;
 	}
-@media screen and (max-width: 1440px) {	.Favorite_media_link
+@media screen and (max-width: 900px) {	.Favorite_media_link
 	{
         text-decoration: none;
 		margin: 10px;
@@ -85,7 +85,7 @@
 		color: orange;
 		text-decoration: none;
 	}
-@media screen and (max-width: 1440px) {	 .Website_link
+@media screen and (max-width: 900px) {	 .Website_link
     {
         text-decoration: none;
 		margin: 10px;
@@ -102,7 +102,7 @@
     	color: yellow;
     	text-decoration: none;
     }
-@media screen and (max-width: 1440px) {    .Hobbies_link
+@media screen and (max-width: 900px) {    .Hobbies_link
 	{
      text-decoration: none;
 		margin: 10px;
@@ -120,7 +120,7 @@
 	     color: #1034A6;
 	     text-decoration: none;
 	}
-@media screen and (max-width: 1440px) {	.Projects_link
+@media screen and (max-width: 900px) {	.Projects_link
 	{
 		text-decoration: none;
 		margin: 10px;
@@ -128,7 +128,7 @@
 		display: inline-block;
 		background-color: yellow;
 		text-align: center;
-		color: white;
+		color: black;
 		font-size: 30px;
 		
 	}}
@@ -141,7 +141,7 @@
 	{
 		margin-left: 80px;
 	}
-@media screen and (max-width: 1440px) {.Basic_info 
+@media screen and (max-width: 900px) {.Basic_info 
 { 
 padding: 25px; background-color: blue; color: white; text-align: center;
 }}
@@ -167,7 +167,7 @@ padding: 25px; background-color: blue; color: white; text-align: center;
      	color: blue;
      	text-decoration: none;
      }
-@media screen and (max-width: 1440px) {.Education	
+@media screen and (max-width: 900px) {.Education	
 {
  background-color: purple;	
  color: white;	
@@ -188,7 +188,7 @@ padding: 25px; background-color: blue; color: white; text-align: center;
      	color: blue;
      	text-decoration: none;
      }
-@media screen and (max-width: 1440px) {.Work_Experience
+@media screen and (max-width: 900px) {.Work_Experience
 {
 	background-color: turquoise;
 	color: black;
@@ -214,7 +214,7 @@ padding: 25px; background-color: blue; color: white; text-align: center;
      	color: blue;
      	text-decoration: none;
      }
-@media screen and (max-width: 1440px) {.Programming_Skills
+@media screen and (max-width: 900px) {.Programming_Skills
 {
 	background-color: orange;
 	color: white;
@@ -235,7 +235,7 @@ padding: 25px; background-color: blue; color: white; text-align: center;
      	color: blue;
      	text-decoration: none;
      }
-@media screen and (max-width: 1440px) {.favorite_media
+@media screen and (max-width: 900px) {.favorite_media
 {
 	background-color: red;
 	color: white;
@@ -261,7 +261,7 @@ padding: 25px; background-color: blue; color: white; text-align: center;
      	color: blue;
      	text-decoration: none;
      }
-@media screen and (max-width: 1440px) {.Websites
+@media screen and (max-width: 900px) {.Websites
 {
 	background-color: magenta;
 	color: white;
@@ -304,7 +304,7 @@ color: yellow;
      	color: blue;
      	text-decoration: none;
      }
-@media screen and (max-width: 1440px) {.My_Hobbies
+@media screen and (max-width: 900px) {.My_Hobbies
 {
 	background-color: lime;
 	color: white;
@@ -329,7 +329,7 @@ color: yellow;
      	color: blue;
      	text-decoration: none;
      }
-@media screen and (max-width: 1440px) {.Projects
+@media screen and (max-width: 900px) {.Projects
 	{
      
      background-color: yellow;
