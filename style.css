@@ -336,6 +336,12 @@ color: yellow;
 	 padding: 25px;
 	 text-align: center;
 	}
+.Projects>th
+{
+	font-weight: bold;
+	text-align: center;
+}
+
 .Back_to_mainpage
      {
      background-color: white;
