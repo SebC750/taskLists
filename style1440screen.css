@@ -1,22 +1,22 @@
-@media screen and (max-width: 1440px) {
-	.basic_info_link
+
+@media screen and (max-width: 1440px) {	.basic_info_link
 {
      text-decoration: none;
 		margin: 10px;
 		padding: 80px;
 		display: inline-block;
-		background-color: red;
+		background-color: blue;
 		text-align: center;
 		color: white;
-		font-size: 24px;
+		font-size: 30px;
 		
-	}
+	} }
 .basic_info_link:hover
 {
         color: chartreuse;
         text-decoration: none;
 }
-.Education_link
+@media screen and (max-width: 1440px) {.Education_link
 {
 	    text-decoration: none;
 		margin: 10px;
@@ -24,33 +24,33 @@
 		padding: 79px;
 		text-align: center;
 		display: inline-block;
-		background-color: orange;
+		background-color: purple;
 		color: white;
-		font-size: 24px;
-}
+		font-size: 30px;
+} }
     .Education_link:hover
 	{
         color: blue;
         text-decoration: none;
 	}
-	.Work_link
+@media screen and (max-width: 1440px) {	.Work_link
 	{
         text-decoration: none;
 		margin: 10px;
 		padding: 80px;
 		display: inline-block;
-		background-color: yellow;
+		background-color: turquoise;
 		text-align: center;
 		color: black;
-		font-size: 24px;
+		font-size: 30px;
 		
-	}
+	}}
 .Work_link:hover
 	{
         color: purple;
         text-decoration: none;
 	}
-	.Program_link
+@media screen and (max-width: 1440px) {	.Program_link
 	{
         text-decoration: none;
 		margin: 10px;
@@ -58,80 +58,80 @@
 		padding-top: 80px;
 		padding-bottom: 80px;
 		display: inline-block;
-		background-color: green;
+		background-color: orange;
 		color: white;
-		font-size: 24px;
+		font-size: 30px;
 		
-	}
+	}}
 	.Program_link:hover
 	{
 		color: cyan;
 		text-decoration: none;
 	}
-	.Favorite_media_link
+@media screen and (max-width: 1440px) {	.Favorite_media_link
 	{
         text-decoration: none;
 		margin: 10px;
 		padding: 80px;
 		display: inline-block;
-		background-color: blue;
+		background-color: red;
 		text-align: center;
 		color: white;
-		font-size: 24px;
+		font-size: 30px;
 		
-	}
+	}}
 	.Favorite_media_link:hover
 	{
 		color: orange;
 		text-decoration: none;
 	}
-	 .Website_link
+@media screen and (max-width: 1440px) {	 .Website_link
     {
         text-decoration: none;
 		margin: 10px;
 		padding: 80px;
 		display: inline-block;
-		background-color: purple;
+		background-color: magenta;
 		color: white;
-		font-size: 24px;
+		font-size: 30px;
 		text-align: center;
 		
-    }
+    }}
     .Website_link:hover
     {
     	color: yellow;
     	text-decoration: none;
     }
-    .Hobbies_link
+@media screen and (max-width: 1440px) {    .Hobbies_link
 	{
      text-decoration: none;
 		margin: 10px;
 		padding: 80px;
 		display: inline-block;
-		background-color: crimson;
+		background-color: lime;
 		text-align: center;
 		color: white;
-		font-size: 24px;
+		font-size: 30px;
 		
 
-	}
+	}}
 	.Hobbies_link:hover
 	{
 	     color: #1034A6;
 	     text-decoration: none;
 	}
-	.Projects_link
+@media screen and (max-width: 1440px) {	.Projects_link
 	{
 		text-decoration: none;
 		margin: 10px;
 		padding: 80px;
 		display: inline-block;
-		background-color: turquoise;
+		background-color: yellow;
 		text-align: center;
 		color: white;
-		font-size: 24px;
+		font-size: 30px;
 		
-	}
+	}}
 	.Projects_link:hover
 	{
 		color: indigo;
@@ -141,10 +141,10 @@
 	{
 		margin-left: 80px;
 	}
-.Basic_info 
+@media screen and (max-width: 1440px) {.Basic_info 
 { 
-padding: 25px; background-color: red; color: white; text-align: center;
-}
+padding: 25px; background-color: blue; color: white; text-align: center;
+}}
 .Manhattan
 	{
      border: 5px solid blue;
@@ -167,13 +167,13 @@ padding: 25px; background-color: red; color: white; text-align: center;
      	color: blue;
      	text-decoration: none;
      }
-.Education	
+@media screen and (max-width: 1440px) {.Education	
 {
- background-color: orange;	
+ background-color: purple;	
  color: white;	
  padding: 25px;		
  text-align: center;	
-}
+}}
 .Back_to_mainpage
      {
      background-color: white;
@@ -188,14 +188,14 @@ padding: 25px; background-color: red; color: white; text-align: center;
      	color: blue;
      	text-decoration: none;
      }
-.Work_Experience
+@media screen and (max-width: 1440px) {.Work_Experience
 {
-	background-color: yellow;
+	background-color: turquoise;
 	color: black;
 	padding: 25px;
 	
 	text-align: center;
-}
+}}
 .Work_list
 {
 	margin-top: 25px;
@@ -214,13 +214,13 @@ padding: 25px; background-color: red; color: white; text-align: center;
      	color: blue;
      	text-decoration: none;
      }
-.Programming_Skills
+@media screen and (max-width: 1440px) {.Programming_Skills
 {
-	background-color: green;
+	background-color: orange;
 	color: white;
 	padding: 25px;
 	text-align: center;
-}
+}}
 .Back_to_mainpage
      {
      background-color: white;
@@ -235,14 +235,14 @@ padding: 25px; background-color: red; color: white; text-align: center;
      	color: blue;
      	text-decoration: none;
      }
-.favorite_media
+@media screen and (max-width: 1440px) {.favorite_media
 {
-	background-color: blue;
+	background-color: red;
 	color: white;
 	padding: 25px;
 	
 	text-align: center;
-}
+}}
  .Input
   {
   	margin-left:50px;
@@ -261,13 +261,13 @@ padding: 25px; background-color: red; color: white; text-align: center;
      	color: blue;
      	text-decoration: none;
      }
-.Websites
+@media screen and (max-width: 1440px) {.Websites
 {
-	background-color: purple;
+	background-color: magenta;
 	color: white;
 	padding: 25px;
 	text-align: center;
-}
+}}
 .Website_list
 {
   font-size: 28px;
@@ -304,13 +304,13 @@ color: yellow;
      	color: blue;
      	text-decoration: none;
      }
-.My_Hobbies
+@media screen and (max-width: 1440px) {.My_Hobbies
 {
-	background-color: crimson;
+	background-color: lime;
 	color: white;
 	padding: 25px;
 	text-align: center;
-}
+}}
 .gallery
  	{
  		margin-left: 50px;
@@ -329,14 +329,14 @@ color: yellow;
      	color: blue;
      	text-decoration: none;
      }
-.Projects
+@media screen and (max-width: 1440px) {.Projects
 	{
      
-     background-color: turquoise;
+     background-color: yellow;
 	 color: white;
 	 padding: 25px;
 	 text-align: center;
-	}
+	}}
 .Back_to_mainpage
      {
      background-color: white;
@@ -351,5 +351,3 @@ color: yellow;
      	color: blue;
      	text-decoration: none;
      }
-	
-}
