@@ -3,7 +3,7 @@
 <head>
 <script src="my_javaScript.js"></script>
 </head>
-
+<body>
 <link rel = "stylesheet" href = "style\taskStyle.css">
 
 <head>
@@ -15,27 +15,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
-<body>
+
 <div class = "jumbotron">
 <h1> Add a new task </h1>
 </div>
-
 <ul id = "ulForm">
 	</ul>
-<form  id = "addForm" method = "post" action = "https://sebc750.github.io/taskLists/add.html">
+<form  id = "addForm" onsubmit = "add()" action = "https://sebc750.github.io/taskLists/add.html">
 	    <label for = "taskName"> Task name</label>
         
 		<input id = "taskName" style = "margin-left: 60px" autocomplete="off" autofocus 
 		placeholder="New Task" type = "text">
-		<label for = "taskDesc"> Task Description </label>
-        <input id = "taskDesc" style = "margin-left: 60px" autocomplete="off" autofocus placeholder = "New Desc" type = "text">
-        <label for = "taskP"> Task Priority </label>
-        <select id = "taskP">	 
-        <option value = "low"> low </option>
-        <option value = "medium"> medium </option>
-        <option value = "high"> high </option>
-		<input id = "submit" type = "submit">
-	</select>
+		
+		<input id = "submit" onclick = "setArray()" type = "submit">
 </form>
 </body>
 </html>
