@@ -19,17 +19,7 @@
 <div class = "jumbotron">
 <h1> Add a new task </h1>
 </div>
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-	document.querySelector("#addForm").onsubmit = function(){
-	const li = document.createElement('li');
-	li.innerHTML = document.querySelector('#taskName').value;
-	document.querySelector("#ulForm").append(li);
-	document.querySelector('#taskName').value = '';	
-    return false;
-}
-});
-</script>
+
 <ul id = "ulForm">
 	</ul>
 <form  id = "addForm" method = "post" action = "https://sebc750.github.io/taskLists/add.html">
