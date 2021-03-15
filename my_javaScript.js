@@ -1,5 +1,5 @@
 
-function add(){
+
 document.addEventListener('DOMContentLoaded', function() {
 	document.querySelector("#addForm").onsubmit = function(){
 	const li = document.createElement('li');
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	return tasks.get('#taskName');+" "+tasks.get('#taskDesc');+" "+tasks.get('#taskP');
     return false;
 }
-}}
+}
 var tasks = [];
   function setArray(){
   boxName = document.getElementById('#taskName').value;
