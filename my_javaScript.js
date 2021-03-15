@@ -1,9 +1,17 @@
 document.addEventListener('DOMContentLoaded', function() {
 	document.querySelector("#addForm").onsubmit = function(){
 	const li = document.createElement('li');
+	const li2 = document.createElement('li2');
+	const li3 = document.createElement('li3');
 	li.innerHTML = document.querySelector('#taskName').value;
+	li2.innerHTML = document.querySelector('#taskDesc').value;
+	li3.innerHTML = document.querySelector('#taskP').value;
 	document.querySelector("#ulForm").append(li);
+	document.querySelector("#ulForm").append(li2);
+	document.querySelector("#ulForm").append(li3);
 	document.querySelector('#taskName').value = '';	
+	document.querySelector('#taskDesc').value = '';	
+	document.querySelector('#taskP').value = '';	
     return false;
 }
 });
