@@ -1,0 +1,41 @@
+<!DOCTYPE HTML5>
+
+<head>
+<script src="my_javaScript.js"></script>
+</head>
+
+<link rel = "stylesheet" href = "style\taskStyle.css">
+
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class = "jumbotron">
+<h1> Add a new task </h1>
+</div>
+
+<ul id = "ulForm">
+	</ul>
+<form onsubmit = "add()" id = "addForm" method = "post" action = "https://sebc750.github.io/taskList/">
+	     <label for = "taskName"> Task name</label>
+
+		<input id = "taskName" style = "margin-left: 60px" autocomplete="off" autofocus placeholder="New Task" type = "text">
+		<label for = "taskDesc"> Task Desc</label>
+		<input id = "taskDesc" autocomplete="off" autofocus placeholder="New Task Description" type = "text">
+		<label for = "taskP" autofocus> Rate the importance of this task:</label>
+		<select id = "taskP">
+		<option value = "low" style = "margin-top: 100px"> Low </option> 
+		<option value = "medium" style = "margin-top: 100px"> Medium </option>
+		<option value = "high" style = "margin-top: 100px"> High </option>
+
+	    </select>
+		<input id = "submit" onkeypress="setArray()" type = "submit">
+</form>
+</body>
+
