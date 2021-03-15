@@ -1,0 +1,22 @@
+    .addLink
+    {
+       text-decoration: none;
+       color:white;
+    }
+    .addLink:hover
+    {
+       color:yellow;
+    }
+    .opening
+    {
+    	margin-left: 60px;
+      font-size: 32px;
+    }
+    .addTitle
+    {
+
+    }
+    #taskDesc
+    {
+      
+    }
