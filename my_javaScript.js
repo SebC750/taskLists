@@ -1,20 +1,18 @@
+function add()
+{
 document.addEventListener('DOMContentLoaded', function() {
 	document.querySelector("#addForm").onsubmit = function(){
 	const li = document.createElement('li');
-	const li2 = document.createElement('li2');
-	const li3 = document.createElement('li3');
+	
 	li.innerHTML = document.querySelector('#taskName').value;
-	li2.innerHTML = document.querySelector('#taskDesc').value;
-	li3.innerHTML = document.querySelector('#taskP').value;
+	
 	document.querySelector("#ulForm").append(li);
-	document.querySelector("#ulForm").append(li2);
-	document.querySelector("#ulForm").append(li3);
-	document.querySelector('#taskName').value = '';	
-	document.querySelector('#taskDesc').value = '';	
-	document.querySelector('#taskP').value = '';	
+	
+	document.querySelector('#taskName').value = '';		
+
     return false;
 }
-});
+};
 var tasks = [];
   function setArray(){
   boxName = document.getElementById('#taskName').value;
@@ -22,7 +20,7 @@ var tasks = [];
   boxStatus = document.getElementById('#taskP').value;
   tasks.push(boxName,boxDesc,boxStatus);
   var p = "";
-   for(int i = 0; i < tasks.length;i++)
+   for(var i = 0; i < tasks.length;i++)
    {
          p = p+tasks[i];
    }
