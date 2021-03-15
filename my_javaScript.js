@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', function() {
 	document.querySelector("#ulForm").append(li);
 	document.querySelector("#ulForm").append(li2);
 	document.querySelector("#ulForm").append(li3);
-	document.querySelector('#taskName').value = 'Task name:';
-	document.querySelector('#taskDesc').value = 'Task desc:';
+	document.querySelector('#taskName').value = '';
+	document.querySelector('#taskDesc').value = '';
 	document.querySelector('#taskP').value = '';
-	return tasks.get('#taskName');+" "+tasks.get('#taskDesc');+" "+tasks.get('#taskP');
+	
     return false;
 }
 }
