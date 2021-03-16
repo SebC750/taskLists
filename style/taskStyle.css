@@ -1,22 +1,5 @@
-    .addLink
+#opening
     {
-       text-decoration: none;
-       color:white;
-    }
-    .addLink:hover
-    {
-       color:yellow;
-    }
-    .opening
-    {
-    	margin-left: 60px;
-      font-size: 32px;
-    }
-    .addTitle
-    {
-
-    }
-    #taskDesc
-    {
-      
+      text-align: center;
+      font-size: 24px;
     }
