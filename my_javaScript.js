@@ -1,18 +1,9 @@
 function add()
 {
-document.addEventListener('DOMContentLoaded', function() {
-	document.querySelector("#addForm").onsubmit = function(){
-	const li = document.createElement('li');
-	
-	li.innerHTML = document.querySelector('#taskName').value;
-	
-	document.querySelector("#ulForm").append(li);
-	
-	document.querySelector('#taskName').value = '';		
-
-    return false;
+document.getElementById('value').innerHTML = 
+                    document.getElementById("#taskName").value;
 }
-});}
+
 var tasks = [];
   function setArray(){
   boxName = document.getElementById('#taskName').value;
