@@ -1,9 +1,10 @@
 <!DOCTYPE HTML5>
 <html>
-<script src="my_javaScript.js"></script>
+
+<head>
+  <script src="my_javaScript.js"> </script>
 <link rel = "stylesheet" href = "style\taskStyle.css">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<head>
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
@@ -11,10 +12,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
+
+
 <div class = "jumbotron text-center" style = "background-color: blue; color: white;">
 <h1> Welcome to your Homeroom! </h1>
 </div>
-<table>
+
+<p id = 'opening'> This page allows you to keep a to-do list for all your scheduling needs. </p> 
+
+<div>
+<table class = "table">
   <tr> 
 	<th> To do list </th>
   </tr> 
@@ -23,17 +30,33 @@
     <th> Task Description </th>
     <th> Status </th>
   </tr>
+  <tr> 
+    <td id = 'taskN'> </td>
+    <td id = 'taskD'> </td>
+    <td id = 'taskS'> </td>
+  </tr>
 </table>
-<ul id = "ulForm">
-  </ul> 
-  
-<p class = "opening" style = "margin-left: 90px"> To add a new task, press the button below!</p>
+</div>
 
-<button type = "button" class = "btn btn-primary">
-	<a href = "add.html" style = "text-decoration: none; color:white;">
-	Add a new task 
-   </a>
-</button>
+<div class = "jumbotron" style = "text-align: center;">
+<h1> Add a new task </h1>
+</div>
+<body>
 
+<form id = "form">
+    <label for = "task"> Task name</label>        
+    <input id = "task" placeholder="New task" autocomplete = "off" autofocus type = "text">
+    <label for = "desc"> Task Description</label>        
+    <input id = "desc" placeholder="New description" autocomplete = "off" autofocus type = "text">  
+    <label id = "importance"> How important is it? </label> 
+    <select id="importance">
+     <option value= "low"> Low</option>
+     <option value= "medium"> Medium</option>
+     <option value= "high"> High</option>
+    </select>
+    <input id = "submit" type = "submit">
+
+</form> 
+</body>
 </html>
 
