@@ -1,7 +1,14 @@
 function add()
 {
-document.getElementById('#ulForm').innerHTML = 
-                    document.getElementById("#taskName").value;
+document.addEventListener('DOMContentLoaded', function() { 
+document.querySelector("#addForm").onsubmit = function()
+
+        const li = document.createElement('li')
+        li.innerHTML = document.querySelector("#taskName").value;
+        document.querySelector("#addForm").append(li);
+        document.querySelector("#taskName").value = '';
+        return false;
+});
 }
 
 var tasks = [];
