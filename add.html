@@ -23,11 +23,11 @@
 <script language = "javascript">
 	function add()
 {
-
+        
         var li = document.createElement('li');
-        li.innerHTML = document.querySelector("#taskName").value;
-        document.querySelector("#ulForm").append(li);
-        document.querySelector("#taskName").value = '';
+        var app = document.getElementById("#taskName").value;
+        var t = createTextNode(app);
+        
         return false;
 }
 
