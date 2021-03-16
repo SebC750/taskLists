@@ -19,14 +19,15 @@
 <div class = "jumbotron">
 <h1> Add a new task </h1>
 </div>
-<ul id = "ulForm">
-	</ul>
-<form id = "addForm" onsubmit = "add();">
+
+<form id = "addForm">
 	    <label for = "taskName"> Task name</label>
         
 		<input id = "taskName" style = "margin-left: 60px" autocomplete="off" autofocus placeholder="New Task" type = "text">
-		<input id = "submit" type = "submit">
+		<input id = "submit" onsubmit = "add();" type = "submit">
 
-</form>		
+</form>	
+<ul id = "ulForm">
+	</ul>	
 </body>		
 </html>
