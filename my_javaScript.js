@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', function()
         document.querySelector('#form').onsubmit = function()
         {
         const li = document.createElement('li');
-        li.innerHTML = document.querySelector("#task").value;
+        let task_text = document.querySelector("#task").value;
+        let delete_task = '<span> ${task_text} </span> <button class = "remove"> Delete </button>       ';
+        li.innerHTML = delete_task
         document.querySelector("#taskN").append(li);
         document.querySelector("#task").value = '';
         const li2 = document.createElement('li2');
@@ -16,6 +18,14 @@ document.addEventListener('DOMContentLoaded', function()
         document.querySelector("#importance").value = '';
         return false;
     }
+    document.addEventListener('click', function(event)
+    {
+    	element = event.target;
+    	if(element.className == 'remove')
+     {
+       element.parentElement.remove();
+     }
+    })
   });
 var tasks = [];
   function setArray(){
@@ -29,8 +39,8 @@ var tasks = [];
          p = p+tasks[i];
    }
    document.getElementById(p).innerHTML;
-
 }
+
 function print()
 {
 console.log(tasks);
