@@ -19,15 +19,14 @@
 <div class = "jumbotron">
 <h1> Add a new task </h1>
 </div>
-<ul id = "ulForm">
-	</ul>	
+
 <script language = "javascript">
 	function add()
 {
 document.addEventListener('DOMContentLoaded', function() { 
 document.querySelector("#ulForm").onsubmit = function()
 
-        const li = document.createElement('li')
+        const li = document.createElement('li');
         li.innerHTML = document.querySelector("#taskName").value;
         document.querySelector("#ulForm").append(li);
         document.querySelector("#taskName").value = '';
