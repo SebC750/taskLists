@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     return false;
 }
-};
+});
 var tasks = [];
   function setArray(){
   boxName = document.getElementById('#taskName').value;
