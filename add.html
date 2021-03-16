@@ -24,8 +24,10 @@
 	function add()
 {
         
-        var li = document.createElement('li');
+        var li = document.createElement('li').innerHTML;
         var app = document.getElementById("#taskName").value;
+        document.getElementById("#ulForm").append(li)
+        document.getElementById("#taskName").value = "";
         var t = createTextNode(app);
         
         return false;
