@@ -1,7 +1,7 @@
 <!DOCTYPE HTML5>
 <html>
 <head>
-<script src="my_javaScript.js"></script>
+<script src="my_javaScript.js"> </script>
 </head>
 <body>
 <link rel = "stylesheet" href = "style\taskStyle.css">
@@ -19,9 +19,13 @@
 <div class = "jumbotron">
 <h1> Add a new task </h1>
 </div>
+<div class = container>
+	<p> <span id = "value">  </span>
+	</p>
+</div>
 <ul id = "ulForm">
 	</ul>
-<form  id = "addForm" method = "post" onsubmit = "add()">
+<form  id = "addForm" onsubmit = "add();">
 	    <label for = "taskName"> Task name</label>
         
 		<input id = "taskName" style = "margin-left: 60px" autocomplete="off" autofocus 
