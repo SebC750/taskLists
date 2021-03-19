@@ -4,8 +4,10 @@ document.addEventListener('DOMContentLoaded', function()
         {
         const li = document.createElement('li');
         let task_text = document.querySelector("#task").value;
-        let delete_task = '<span> ${task_text} </span> <button class = "remove"> Delete </button>       ';
-        li.innerHTML = delete_task
+        let desc_text = document.querySelector("#desc").value;
+        let imp_text = document.querySelector("#importance").value;
+        let delete_task = `<span> ${task_text}</span> <button class = "remove"> Remove </button>`;
+        li.innerHTML = delete_task;
         document.querySelector("#taskN").append(li);
         document.querySelector("#task").value = '';
         const li2 = document.createElement('li2');
@@ -21,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function()
     document.addEventListener('click', function(event)
     {
     	element = event.target;
-    	if(element.className == 'remove')
+    	if(element.className === 'remove')
      {
        element.parentElement.remove();
      }
