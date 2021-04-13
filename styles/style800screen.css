@@ -1,0 +1,352 @@
+@media screen and (max-width: 800px) {.basic_info_link
+{
+     text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: green;
+		text-align: center;
+		color: white;
+		font-size: 42px;
+		
+	} }
+.basic_info_link:hover
+{
+        color: chartreuse;
+        text-decoration: none;
+}
+@media screen and (max-width: 800px) {.Education_link
+{
+	    text-decoration: none;
+		margin: 10px;
+		padding-bottom:80px;
+		padding: 79px;
+		text-align: center;
+		display: inline-block;
+		background-color: blue;
+		color: white;
+		font-size: 42px;
+}}
+    .Education_link:hover
+	{
+        color: orange;
+        text-decoration: none;
+	}
+@media screen and (max-width: 800px) {	.Work_link
+	{
+        text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: red;
+		text-align: center;
+		color: black;
+		font-size: 42px;
+		
+	}}
+.Work_link:hover
+	{
+        color: purple;
+        text-decoration: none;
+	}
+@media screen and (max-width: 800px) {	.Program_link
+	{
+        text-decoration: none;
+		margin: 10px;
+		padding: 55px;
+		padding-top: 80px;
+		padding-bottom: 80px;
+		display: inline-block;
+		background-color: yellow;
+		color: black;
+		font-size: 42px;
+		
+	}}
+	.Program_link:hover
+	{
+		color: cyan;
+		text-decoration: none;
+	}
+@media screen and (max-width: 800px) {	.Favorite_media_link
+	{
+        text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: purple;
+		text-align: center;
+		color: white;
+		font-size: 42px;
+		
+	}}
+	.Favorite_media_link:hover
+	{
+		color: orange;
+		text-decoration: none;
+	}
+@media screen and (max-width: 800px) {	 .Website_link
+    {
+        text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: crimson;
+		color: white;
+		font-size: 42px;
+		text-align: center;
+		
+    }}
+    .Website_link:hover
+    {
+    	color: yellow;
+    	text-decoration: none;
+    }
+@media screen and (max-width: 800px) {    .Hobbies_link
+	{
+     text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: turquoise;
+		text-align: center;
+		color: white;
+		font-size: 42px;
+		
+
+	}}
+	.Hobbies_link:hover
+	{
+	     color: #1034A6;
+	     text-decoration: none;
+	}
+@media screen and (max-width: 800px) {	.Projects_link
+	{
+		text-decoration: none;
+		margin: 10px;
+		padding: 80px;
+		display: inline-block;
+		background-color: orange;
+		text-align: center;
+		color: white;
+		font-size: 42px;
+		
+	}}
+	.Projects_link:hover
+	{
+		color: indigo;
+		text-decoration: none;
+	}
+	#categories
+	{
+		margin-left: 80px;
+	}
+@media screen and (max-width: 800px) {.Basic_info 
+{ 
+padding: 25px; background-color: green; color: white; text-align: center;
+}}
+.Manhattan
+	{
+     border: 5px solid blue;
+	}
+.Manhattan_Night
+	{
+      border: 5px solid blue;
+	}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+@media screen and (max-width: 800px) {.Education	
+{
+ background-color: blue;	
+ color: white;	
+ padding: 25px;		
+ text-align: center;	
+}}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+@media screen and (max-width: 800px) {.Work_Experience
+{
+	background-color: red;
+	color: black;
+	padding: 25px;
+	
+	text-align: center;
+}}
+.Work_list
+{
+	margin-top: 25px;
+}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+@media screen and (max-width: 800px) {.Programming_Skills
+{
+	background-color: yellow;
+	color: white;
+	padding: 25px;
+	text-align: center;
+}}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+@media screen and (max-width: 800px) {.favorite_media
+{
+	background-color: purple;
+	color: white;
+	padding: 25px;
+	
+	text-align: center;
+}}
+ .Input
+  {
+  	margin-left:50px;
+  }
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+@media screen and (max-width: 800px) {.Websites
+{
+	background-color: crimson;
+	color: white;
+	padding: 25px;
+	text-align: center;
+}}
+.Website_list
+{
+  font-size: 28px;
+  margin-top: 25px;
+}
+.discogs:hover
+{
+  color: yellow;
+}
+.w3schools:hover
+{
+color: yellow;
+}
+.youtube:hover
+{
+color: yellow;
+}
+.spotify:hover
+{
+  color: yellow;
+}
+
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+@media screen and (max-width: 800px) {.My_Hobbies
+{
+	background-color: turquoise;
+	color: white;
+	padding: 25px;
+	text-align: center;
+}}
+.gallery
+ 	{
+ 		margin-left: 50px;
+ 	}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
+@media screen and (max-width: 800px) {.Projects
+	{
+     
+     background-color: orange;
+	 color: white;
+	 padding: 25px;
+	 text-align: center;
+	}}
+.Back_to_mainpage
+     {
+     background-color: white;
+	 color: black;
+	 padding: 25px;
+	 text-align: center;
+	 display: inline-block;
+	 text-decoration: none;
+     }
+.Back_to_mainpage:hover
+     {
+     	color: blue;
+     	text-decoration: none;
+     }
